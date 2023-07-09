@@ -1,0 +1,35 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+.homepageLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 5px;
+    padding-right: 10px;
+    background-color: lightgray;
+    font-size: 1.1rem;
+    transition: background-color 150ms ease-in-out;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.homepageLink:hover {
+    background-color: darkgray;
+}
+.houseImg {
+    height: 40px;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+.backToHomepageBtn {
+    font-size: 1.25rem;
+}
